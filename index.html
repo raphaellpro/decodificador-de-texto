@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador 256 bits</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <h1>Decodificador 256 bits</h1>
+
+        <div class="paste-container">
+            <button id="paste-btn">Colar Texto</button>
+        </div>
+
+        <!-- Campo de texto para inserir a mensagem -->       
+        <div class="input-container">
+            <textarea id="input-text" placeholder="Digite seu texto aqui..."></textarea>
+            <button id="clear-btn">✖</button>
+        </div>
+
+        <p id="instruction-text" class="instruction-text">*Digite apenas letras minúsculas e sem caracteres especiais</p>
+        
+        <!-- Botões para criptografar e descriptografar -->
+        <div>
+            <button id="encrypt-btn">Criptografar</button>
+            <button id="decrypt-btn">Descriptografar</button>
+        </div>
+
+        <!-- Área para exibir o texto resultante -->
+        <div class="input-container">
+            <textarea id="output-text" placeholder="O resultado aparecerá aqui..." readonly></textarea>
+            <button id="copy-btn">Copiar Texto</button>
+        </div>
+
+        <!-- Mensagem de validação -->
+        <p id="validation-message" style="color: red;"></p>
+
+        <footer>
+            <p>Desenvolvido por [Raphael] - 2024</p>
+        </footer>
+
+        <script src="main.js"></script>        
+    </body>
+
+</html>
+
