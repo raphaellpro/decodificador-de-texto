@@ -3,11 +3,15 @@
 
 O objetivo principal deste desafio foi experimentar a realização de um projeto real, similar ao trabalho diário de uma pessoa desenvolvedora. Tive a oportunidade de praticar os conceitos aprendidos nos cursos até agora. Este desafio me ajudou a consolidar e fortalecer meus conhecimentos em lógica de programação, essenciais para o desenvolvimento de software.
 
+Nome do Projeto: Decodificador 256 bits 😅
+
+Site: [Decodificador 256 bits](https://raphaellpro.github.io/decodificador-de-texto/)
+
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/8f0ce565-9f2c-47c4-b545-7391e8aa4e0b)
 
-## Funcionalidade do Site
+## Funcionalidade do Projeto
 
 Este site foi desenvolvido para criptografar e descriptografar textos utilizando uma lógica específica de substituição de caracteres. A ferramenta permite que o usuário converta uma mensagem de texto em uma versão criptografada, tornando-a segura para troca de informações confidenciais.
 
